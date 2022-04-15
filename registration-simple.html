@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SITO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta name="format-detection" content="telephone=no">
+    <link href="/favicon.png" rel="shortcut icon" type="image/png">
+    <!-- styles-->
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--js-->
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="body">
+    <div class="content">
+      <header class="header">
+        <div class="limit">
+          <div class="flex-panel header-panel">
+            <button class="btn burger js-mnu-btn"><span class="burger__top"></span><span class="burger__middle"></span><span class="burger__bottom"></span></button>
+            <div class="mobile-mnu js-mobile-mnu">
+              <div class="mobile-mnu__top">
+                <div class="mobile-mnu__list">
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="login.html">Войти</a></div>
+                </div>
+              </div>
+              <div class="mobile-mnu__footer">
+                <div class="mobile-mnu__list">
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__footer-link" href="#" target="_blank">Политика  конфиденциальности  </a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__footer-link" href="#" target="_blank">Пользовательское  соглашение</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="header-panel__logo"><a class="logo" href="/"><span class="logo__pic logo__pic_desk">SITO</span><span class="logo__pic logo__pic_mob">S</span><span class="logo__txt">Исследовательский  проект</span></a></div>
+            <div class="header-panel__nav">
+              <nav class="nav">
+                <a class="nav__link active nav__link--reg" href="login.html">
+                  <span class="nav__link-txt">Войти</span>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main main--login">
+        <div class="top-bar">
+          <div class="limit">
+            <div class="top-panel">
+              <div class="top-panel__title">
+                <h1 class="page-title">Регистрация</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="sect">
+          <div class="limit">
+            <div class="login-block">
+              <div class="login-block__form">
+                <form class="form form_login" action="#">
+                  <div class="form__row">
+                    <label class="inpt">
+                      <span class="inpt__label">Телефон или почта</span>
+                      <input class="inpt__field" type="text" name="email-phone">
+                    </label>
+                  </div>
+                  <div class="form__row">
+                    <label class="inpt"><span class="inpt__label">Пароль </span>
+                      <input class="inpt__field" type="password" name="pass"><span class="inpt__error">you shell not pass!!!</span>
+                    </label>
+                  </div>
+
+                  <div class="login-block__socials">
+                    <div class="socials">
+                      <div class="socials__title">Вы также можете использовать для входа на наш сайт аккаунт в вашей любимой социальной сети. Просто щёлкните её иконку.</div>
+                      <div class="socials-list">
+                        <div class="socials-list__itm"><a class="social social_fb" href="#" target="_blank"><span class="social__icn"></span></a></div>
+                        <div class="socials-list__itm"><a class="social social_google" href="#" target="_blank"><span class="social__icn"></span></a></div>
+                        <div class="socials-list__itm"><a class="social social_vk" href="#" target="_blank"><span class="social__icn"></span></a></div>
+                        <div class="socials-list__itm"><a class="social social_ok" href="#" target="_blank"><span class="social__icn"></span></a></div>
+                        <div class="socials-list__itm"><a class="social social_mail" href="#" target="_blank"><span class="social__icn"></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form__row">
+                    <label class="check">
+                      <input class="check__inpt" type="checkbox" name="terms" checked><span class="check__mask"><span class="check__icn">
+                          <svg class="icn icn-check">
+                            <use xlink:href="assets/img/sprite.svg#check"></use>
+                          </svg></span></span><span class="check__label">Я согласен с условиями <a href="#" target="_blank">Пользовательского соглашения</a></span>
+                    </label>
+                  </div>
+
+                  <div class="form__row">
+                    <button class="btn btn_subm"> 
+                      <div class="btn__txt">Зарегистрироваться</div>
+                    </button>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="limit">
+          <div class="flex-panel footer-panel">
+            <div class="copiright">© 2020, sito-opros.ru.</div>
+            <div class="footer-nav"><a class="footer-nav__link" href="/privacy.html">Политика конфиденциальности</a><a class="footer-nav__link" href="/agreement.html">Пользовательское соглашение</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

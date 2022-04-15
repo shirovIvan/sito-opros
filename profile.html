@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SITO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta name="format-detection" content="telephone=no">
+    <link href="/favicon.png" rel="shortcut icon" type="image/png">
+    <!-- styles-->
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--js-->
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="body">
+    <div class="content">
+      <header class="header">
+        <div class="limit">
+          <div class="flex-panel header-panel">
+            <button class="btn burger js-mnu-btn"><span class="burger__top"></span><span class="burger__middle"></span><span class="burger__bottom"></span></button>
+            <div class="mobile-mnu js-mobile-mnu">
+              <div class="mobile-mnu__top">
+                <div class="mobile-mnu__list">
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="/profile.html">Профиль</a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="/anketa.html">Анкета</a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="/polls-list.html">Опросы</a></div>
+                </div>
+              </div>
+              <div class="mobile-mnu__footer">
+                <div class="mobile-mnu__list">
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__footer-link" href="#" target="_blank">Политика  конфиденциальности  </a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__footer-link" href="#" target="_blank">Пользовательское  соглашение</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="header-panel__logo"><a class="logo" href="/"><span class="logo__pic logo__pic_desk">SITO</span><span class="logo__pic logo__pic_mob">S</span><span class="logo__txt">Исследовательский  проект</span></a></div>
+            <div class="header-panel__nav">
+              <nav class="nav"><a class="nav__link" href="/polls-list.html"> <span class="nav__link-icn">
+                    <svg class="icn icn-bubbls">
+                      <use xlink:href="assets/img/sprite.svg#bubbls"></use>
+                    </svg></span><span class="nav__link-txt">Опросы</span></a><a class="nav__link active" href="/profile.html"> <span class="nav__link-icn">
+                    <svg class="icn icn-man">
+                      <use xlink:href="assets/img/sprite.svg#man"></use>
+                    </svg></span><span class="nav__link-txt">Профиль</span></a><a class="nav__link login" href="#">Выйти</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="top-bar">
+          <div class="limit">
+            <div class="top-panel">
+              <div class="top-panel__title">
+                <h1 class="page-title">Профиль</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="sect">
+          <div class="limit">
+            <div class="two-col">
+              <div class="two-col__main">
+                <div class="profile">
+                  <form class="form form_profile" action="#">
+                    <div class="form__row">
+                      <label class="inpt required"><span class="inpt__label">Имя</span>
+                        <input class="inpt__field" type="text" placeholder="Введите имя" required><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <label class="inpt required"><span class="inpt__label">Фамилия </span>
+                        <input class="inpt__field" type="text" placeholder="Введите  фамилию" required><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <label class="inpt"><span class="inpt__label">Отчество</span>
+                        <input class="inpt__field" type="text" placeholder="Введите отчество"><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__title">Дата рождения </div>
+                    <div class="form__row">
+                      <label class="inpt"> <span class="inpt__label">День</span>
+                        <select class="inpt__field js-select" name="day" placeholder="Выбирите день">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                          <option value="18">18</option>
+                          <option value="19">19</option>
+                          <option value="20">20</option>
+                          <option value="21">21</option>
+                          <option value="22">22</option>
+                          <option value="23">23</option>
+                          <option value="24">24</option>
+                          <option value="25">25</option>
+                          <option value="26">26</option>
+                          <option value="27">27</option>
+                          <option value="28">28</option>
+                          <option value="29">29</option>
+                          <option value="30">30</option>
+                          <option value="31">31</option>
+                        </select><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <label class="inpt"><span class="inpt__label">Месяц</span>
+                        <select class="inpt__field js-select" name="month" placeholder="Выбирите месяц">
+                          <option value="jan">Январь</option>
+                          <option value="feb">Февраль</option>
+                          <option value="mar">Март</option>
+                          <option value="apr">Апрель</option>
+                          <option value="may">Май</option>
+                          <option value="jun">Июнь</option>
+                          <option value="jul">Июль</option>
+                          <option value="ogs">Август</option>
+                          <option value="sep">Сентябрь</option>
+                          <option value="oct">Октябрь</option>
+                          <option value="nov">Ноябрь</option>
+                          <option value="des">Декабрь</option>
+                        </select><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <label class="inpt"><span class="inpt__label">Год</span>
+                        <select class="inpt__field js-select" name="year" placeholder="Выбирите год">
+                          <option value="1991">1991</option>
+                          <option value="1992">1992</option>
+                          <option value="1993">1993</option>
+                          <option value="1994">1994</option>
+                          <option value="1995">1995</option>
+                          <option value="1996">1996</option>
+                          <option value="1997">1997</option>
+                          <option value="1998">1998</option>
+                          <option value="1999">1999</option>
+                          <option value="2000">2000</option>
+                        </select><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__title">Пол</div>
+                    <div class="form__row">
+                      <div class="form__brdr">
+                        <label class="radio"> 
+                          <input class="radio__inpt" type="radio" name="gender" value="mail" checked><span class="radio__mask"></span><span class="radio__label">Мужской</span>
+                        </label>
+                      </div>
+                      <div class="form__brdr">
+                        <label class="radio"> 
+                          <input class="radio__inpt" type="radio" name="gender" value="femail"><span class="radio__mask"></span><span class="radio__label">Женский</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form__title">Место жительства </div>
+                    <div class="form__row">
+                      <label class="inpt"><span class="inpt__label">Страна</span>
+                        <select class="inpt__field js-select" name="country" placeholder="Выбирите страну">
+                          <option value="ru">Россия</option>
+                          <option value="us">США</option>
+                          <option value="cn">Китай</option>
+                        </select><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <label class="inpt required"><span class="inpt__label">Город</span>
+                        <input class="inpt__field" type="text" placeholder="Выбирите город" value="Новосибирск (Новосибирская область)" required><span class="inpt__error">error</span>
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <button class="btn btn_subm"> 
+                        <div class="btn__txt">Сохранить</div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="two-col__aside"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="limit">
+          <div class="flex-panel footer-panel">
+            <div class="copiright">© 2020, sito-opros.ru.</div>
+            <div class="footer-nav"><a class="footer-nav__link" href="/privacy.html">Политика конфиденциальности</a><a class="footer-nav__link" href="/agreement.html">Пользовательское соглашение</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SITO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta name="format-detection" content="telephone=no">
+    <link href="/favicon.png" rel="shortcut icon" type="image/png">
+    <!-- styles-->
+    <link rel="stylesheet" href="assets/css/foundation.css?9">
+    <link rel="stylesheet" href="assets/css/main.css?9">
+    <!--js-->
+    <script src="assets/js/foundation.js?7" defer></script>
+    <script src="assets/js/app.js?7" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="body open-welcome-popup">
+
+
+
+    <div class="content">
+      <header class="header">
+        <div class="limit">
+          <div class="flex-panel header-panel">
+            <button class="btn burger js-mnu-btn"><span class="burger__top"></span><span class="burger__middle"></span><span class="burger__bottom"></span></button>
+            <div class="mobile-mnu js-mobile-mnu">
+              <div class="mobile-mnu__top">
+                <div class="mobile-mnu__list">
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="/profile.html">Профиль</a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="/anketa.html">Анкета</a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="/polls-list.html">Опросы</a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__link" href="/polls-list.html">Выход</a></div>
+                </div>
+              </div>
+              <div class="mobile-mnu__footer">
+                <div class="mobile-mnu__list">
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__footer-link" href="#" target="_blank">Политика  конфиденциальности  </a></div>
+                  <div class="mobile-mnu__list-itm"><a class="mobile-mnu__footer-link" href="#" target="_blank">Пользовательское  соглашение</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="header-panel__logo"><a class="logo" href="/"><span class="logo__pic logo__pic_desk">SITO</span><span class="logo__pic logo__pic_mob">S</span><span class="logo__txt">Исследовательский  проект</span></a></div>
+            <div class="header-panel__nav">
+              <nav class="nav">
+                <a class="nav__link active" href="/polls-list.html"> <span class="nav__link-icn">
+                    <svg class="icn icn-bubbls">
+                      <use xlink:href="assets/img/sprite.svg#bubbls"></use>
+                    </svg></span><span class="nav__link-txt">Опросы</span>
+                </a>
+
+              </nav>
+            </div>
+            <div class='header-profile'>
+              <a class="header-profile__cash" href="#">
+                <span class="header-profile__cash-img">
+                  <img src='assets/img/cash.png' alt='cash'>
+                </span>
+                1250
+              </a>
+              <div class="header-profile__notification">
+                <svg class="icn icn-notification">
+                  <use xlink:href="assets/img/sprite.svg#notification"></use>
+                </svg>
+                <span class="header-profile__notification-text">15</span>
+
+                <div class="notification-hidden">
+                  <div class="notification-hidden__item">
+                    <div class="notification-hidden__icon">
+                      <svg class="icn icn-notification-1">
+                        <use xlink:href="assets/img/sprite.svg#notification-1"></use>
+                      </svg>
+                    </div>
+                    <div class="notification-hidden__text">
+                      Появился новый опрос <a href="#">«Заголовок опроса»</a>
+                    </div>
+                  </div>
+                  <div class="notification-hidden__item">
+                    <div class="notification-hidden__icon notification-hidden__icon--red">
+                      <svg class="icn icn-notification-2">
+                        <use xlink:href="assets/img/sprite.svg#notification-2"></use>
+                      </svg>
+                    </div>
+                    <div class="notification-hidden__text">
+                      Опрос <a href="#">«Изменения в стране»</a> стал HOT
+                    </div>
+                  </div>
+                  <div class="notification-hidden__item">
+                    <div class="notification-hidden__icon notification-hidden__icon--orange">
+                      <svg class="icn icn-notification-3">
+                        <use xlink:href="assets/img/sprite.svg#notification-3"></use>
+                      </svg>
+                    </div>
+                    <div class="notification-hidden__text">
+                      Вы изменили данные в цифровом профиле
+                    </div>
+                  </div>
+                  <div class="notification-hidden__item">
+                    <div class="notification-hidden__icon">
+                      <svg class="icn icn-notification-4">
+                        <use xlink:href="assets/img/sprite.svg#notification-4"></use>
+                      </svg>
+                    </div>
+                    <div class="notification-hidden__text">
+                      Вам открыт бонусный опрос
+                    </div>
+                  </div>
+                  <div class="notification-hidden__item">
+                    <div class="notification-hidden__icon notification-hidden__icon--red">
+                      <svg class="icn icn-notification-5">
+                        <use xlink:href="assets/img/sprite.svg#notification-5"></use>
+                      </svg>
+                    </div>
+                    <div class="notification-hidden__text">
+                      Вы попали в ТОП-10 активных пользователей
+                    </div>
+                  </div>
+                  <div class="notification-hidden__item">
+                    <div class="notification-hidden__icon notification-hidden__icon--orange">
+                      <svg class="icn icn-notification-6">
+                        <use xlink:href="assets/img/sprite.svg#notification-6"></use>
+                      </svg>
+                    </div>
+                    <div class="notification-hidden__text">
+                      Вы перешли на новый уровень «Активный гражданин»
+                    </div>
+                  </div>
+                  <div class="notification-hidden__item">
+                    <div class="notification-hidden__icon">
+                      <svg class="icn icn-notification-7">
+                        <use xlink:href="assets/img/sprite.svg#notification-7"></use>
+                      </svg>
+                    </div>
+                    <div class="notification-hidden__text">
+                      Появилось новое исследование
+                    </div>
+                  </div>
+                  <a href="#" class="notification-hidden__more">Показать ещё</a>
+                </div>
+              </div>
+              <div class='header-profile__info'>
+                <div class='header-profile__ava'>
+                  <img src='assets/img/ava.png' alt='ava'>
+                </div>
+                <div class='header-profile__name'>Алина Михалкова</div>
+                <div class='header-profile__experience experience-profile'>
+                  <div class='experience-profile__bar'>
+                    <span style="width: calc((185/300) * 100%)"></span>
+                  </div>
+                  <div class='experience-profile__counts'>
+                    <span>185</span>/300
+                  </div>
+                </div>
+              </div>
+              <div class='hamb'>
+                <a href='#' class='hamb__button js-hamb'>
+                  <svg class="icn icn-hamb">
+                    <use xlink:href="assets/img/sprite.svg#hamb"></use>
+                  </svg>
+                </a>
+                <div class='hamb__hidden js-hamb-hidden'>
+                  <a href='#' class='hamb__link'>Профиль</a>
+                  <a href='#' class='hamb__link'>Выход</a>
+                </div>
+              </div>
+              <div class='header-profile__msg'>
+                Ваш уровень «Новенький» <br />
+                нажми на награду и узнай больше
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="top-bar">
+          <div class="limit">
+            <div class="top-panel">
+              <div class="top-panel__title">
+                <h1 class="page-title">Опросы</h1>
+              </div>
+              <div class="top-panel__btns">
+                <div class="btn-nav">
+                  <div class="btn-nav__itm"> <a class="btn-nav__link active" href="/polls-available.html">Доступные</a></div>
+                  <div class="btn-nav__itm"> <a class="btn-nav__link" href="/polls-list.html">Начатые</a></div>
+                  <div class="btn-nav__itm"> <a class="btn-nav__link" href="#">Заполненные</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="sect">
+          <div class="limit">
+            <div class="two-col">
+              <div class="two-col__main two-col__main--margin">
+                <div class="block-title">Поздравляем, у Вас ещё есть доступные опросы:</div>
+                <div class="polls-list polls-list_available">
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__label progress__label--hot">HOT</div>
+                      <div class="progress__title">Информация о себе</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__label progress__label--bonus"></div>
+                      <div class="progress__title">Заголовок опроса</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="polls-list__category">Социально-политические</div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__label progress__label--new">new</div>
+                      <div class="progress__title">Восприятие бренда ОНФ</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__title">Изменения в стране</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__title">Взгляды на ценности государства</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__title">Рейтинг доверия политикам</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="polls-list__category">Психологические</div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__title">Лидерские качества</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__title">Оксфордский опросник счастья</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="polls-list__itm">
+                    <a class="progress progress_available" href="/poll.html">
+                      <div class="progress__title">Устойчивость к стрессам</div>
+                      <div class="progress__arrow">
+                        <svg class="icn icn-arrow_r">
+                          <use xlink:href="assets/img/sprite.svg#arrow_r"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="two-col__aside two-col__aside--new">
+                <div class='all-polls'>
+                  <div class='all-polls__img'>
+                    <img class="banner__img" src="assets/img/layer 4.png" alt="O-o">
+                  </div>
+                  <div class='all-polls__info'>
+                    <div class='all-polls__item'>
+                      <span>Доступно опросов</span>
+                      <strong>26</strong>
+                    </div>
+                    <div class='all-polls__item'>
+                      <span>Пройдено</span>
+                      <strong>6</strong>
+                    </div>
+                    <div class='all-polls__item'>
+                      <span>Всего</span>
+                      <strong>32</strong>
+                    </div>
+                  </div>
+                </div>
+                <form class='votes-widget-block'>
+                  <h2 class='aside__title'>Опрос недели</h2>
+                  <div class='votes-widget'>
+                    <div class='votes-widget__img'>
+                      <img src='assets/img/votes1.jpg' alt='votes'>
+                    </div>
+                  </div>
+                  <div class='votes-widget__content'>
+                    <div class='votes-widget__title'>Какая из фраз про вас?</div>
+                    <div class='votes-widget__text'>
+                      <p>Поделись Своим Мнением | V-Project Публичный опрос</p>
+                    </div>
+                  </div>
+                  <div class='votes-widget__questions'>
+
+                    <label class='votes-widget__question'>
+                      Моё будущее зависит только от меня.
+                      <input type="checkbox" name="answer1" hidden>
+                    </label>
+
+                    <label class='votes-widget__question'>
+                      Обстоятельства влияют на нашу жизнь, но от меня тоже многое зависит.
+                      <input type="checkbox" name="answer2" hidden>
+                    </label>
+
+                    <label class='votes-widget__question'>
+                      Люди - щепки в океане времени и событий, от меня мало что зависит.
+                      <input type="checkbox" name="answer3" hidden>
+                    </label>
+
+                    <label class='votes-widget__question'>
+                      За меня всё решают другие люди, я беспомощен.
+                      <input type="checkbox" name="answer4" hidden>
+                    </label>
+
+                    <label class='votes-widget__question'>
+                      Всё будет плохо.
+                      <input type="checkbox" name="answer5" hidden>
+                    </label>
+
+                    <label class='votes-widget__question'>
+                      Всё будет хорошо.
+                      <input type="checkbox" name="answer6" hidden>
+                    </label>
+
+                    <label class='votes-widget__question'>
+                      Ничего не знаю.
+                      <input type="checkbox" name="answer7" hidden>
+                    </label>
+                  </div>
+                  <div class='votes-widget__bottom'>
+                    <button class='votes-widget__btn'>Ответить</button>
+                  </div>
+                </form>
+                <div class='ratings'>
+                  <h2 class='aside__title'>Топ-10</h2>
+                  <div class='ratings-content'>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>1</div>
+                        <div class='ratings-item__name'>Cherrutta</div>
+                        <div class="ratings-item__points">237 919 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/ava2.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>2</div>
+                        <div class='ratings-item__name'>Фёдор Кириенко</div>
+                        <div class="ratings-item__points">95 728 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/ava3.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>3</div>
+                        <div class='ratings-item__name'>Иван Сергеевич</div>
+                        <div class="ratings-item__points">15 350 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>4</div>
+                        <div class='ratings-item__name'>kirra</div>
+                        <div class="ratings-item__points">36 214 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/no-ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>5</div>
+                        <div class='ratings-item__name'>Cherruta</div>
+                        <div class="ratings-item__points">28 560 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/ava3.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                      <div class='ratings-item__number'>6</div>
+                      <div class='ratings-item__name'>Petro1990</div>
+                        <div class="ratings-item__points">27 379 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/no-ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                      <div class='ratings-item__number'>7</div>
+                      <div class='ratings-item__name'>AnnaMoon</div>
+                        <div class="ratings-item__points">25 112 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>8</div>
+                        <div class='ratings-item__name'>koko</div>
+                        <div class="ratings-item__points">19 803 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/no-ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>9</div>
+                        <div class='ratings-item__name'>Irinapetrovna</div>
+                        <div class="ratings-item__points">12 200 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/no-ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>10</div>
+                        <div class='ratings-item__name'>panda</div>
+                        <div class="ratings-item__points">8 396 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/no-ava.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                      <div class='ratings-item__number'>...</div>
+                      <div class='ratings-item__name'>...</div>
+                      <div class="ratings-item__points">940 баллов</div>
+                      </div>
+                    </div>
+                    <div class='ratings-item active'>
+                      <div class="ratings-item__ava">
+                        <img src="assets/img/ava3.png" alt="ava">
+                      </div>
+                      <div class="ratings-item__content">
+                        <div class='ratings-item__number'>1450</div>
+                        <div class='ratings-item__name'>Алина Михалкова</div>
+                        <div class="ratings-item__points">3 балла</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="limit">
+          <div class="flex-panel footer-panel">
+            <div class="copiright">© 2020, sito-opros.ru.</div>
+            <div class="footer-nav"><a class="footer-nav__link" href="/privacy.html">Политика конфиденциальности</a><a class="footer-nav__link" href="/agreement.html">Пользовательское соглашение</a></div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <div class="welcome-popup-bg">
+      <div class="welcome-popup">
+        <a href="#" class="welcome-popup__close">
+          <svg class="icn icn-delete">
+            <use xlink:href="assets/img/sprite.svg#delete"></use>
+          </svg>
+        </a>
+        <div class="welcome-popup__img">
+          <img src="assets/img/welcome.webp" alt="welcome">
+        </div>
+        <div class="welcome-popup__title">Добро пожаловать в  V-project!</div>
+        <div class="welcome-popup__text">
+          Здесь ты найдешь множество опросов по разным тематикам.
+
+          <ul class="welcome-popup__ul">
+            <li>
+              <strong>Хочешь менять мир?</strong>
+              Проходи социально-политические опросы.
+            </li>
+            <li>
+              <strong>Хочешь весело провести время?</strong>
+              У нас есть опросы про кино, культуру и даже магию!
+            </li>
+            <li>
+              <strong>Хочешь узнать больше о себе?</strong>
+              Проходи психологические опросы.
+            </li>
+          </ul>
+          За каждую активность вы получаете баллы. Зарабатывайте баллы, будьте в топе рейтинга и получайте бонусы и подарки.
+        </div>
+        <a href="#" class="welcome-popup__btn">Удачи!</a>
+      </div>
+    </div>
+  </body>
+</html>
